@@ -92,7 +92,6 @@ const Hero = ({
           style={{ filter: "blur(114px)" }}
        ></div>
       </div>
-      <span>Ciccio!</span>
     </div>
   );
 };

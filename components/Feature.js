@@ -62,7 +62,6 @@ const Feature = () => {
         </motion.div>
         </ScrollAnimationWrapper>
       </div>
-      <span>Pasticcio!</span>
     </div>
   );
 };
