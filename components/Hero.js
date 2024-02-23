@@ -46,7 +46,7 @@ const Hero = ({
               </ul>
               </p>
               <a href={CALLINK}>
-                <ButtonPrimary>Prenota una lezione</ButtonPrimary>
+                <ButtonPrimary addClass={''}>Prenota una lezione</ButtonPrimary>
               </a>
             </div>
             <div className="flex w-full">

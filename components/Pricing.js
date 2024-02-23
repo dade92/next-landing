@@ -1,13 +1,11 @@
-import React, { useMemo } from "react";
+import React, {useMemo} from "react";
 import Image from "next/image";
 import Testimoni from "./Testimoni";
-import ButtonPrimary from "./misc/ButtonPrimary";
 import ButtonOutline from "./misc/ButtonOutline.";
-import Maps from "../public/assets/HugeGlobal.svg";
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-import { CALLINK } from "./Feature";
+import {CALLINK} from "./Feature";
 
 const Pricing = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -124,7 +122,7 @@ const Pricing = () => {
         </div>
 
         <div className="flex flex-col w-full my-16" id="testimoni">
-          <ScrollAnimationWrapper>
+          <ScrollAnimationWrapper className={''}>
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
